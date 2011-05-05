@@ -1,0 +1,41 @@
+
+#################################################################
+#                                                               #
+# .-----.-----.-----.-----.----.                                #
+# |  _  |  _  |__ --|  -__|  __|  author: Rishi Narang          #
+# |___  |_____|_____|_____|____|  e.mail: code[at]wtfuzz.com    #
+# |_____|                                                       #
+#                                                               #
+#################################################################
+
+gosec is command line utility developed as bash script to search
+Google for a particular query string. It searched "google.com"
+to find the top URLs and lists them on the screen as well as in
+the file "URLS_*" for reference where [*] is the search string.
+
+
+Usage/example:
+-------------
+USAGE: ./gosec {search string}
+
+./gosec test example
+URL results will be saved in the file "URLS_test.example"
+
+./gosec how are you trends
+URL results will be saved in the file "URLS_how.are.you.trends"
+
+
+Prerequisites:
+-------------
+Following commands are needed to be working in the linux-box,
+in addition to normal linux commands (echo, if/else etc.),
+ 1. lynx
+ 2. sed
+ 3. awk
+
+
+Feedback:
+--------
+For any suggestions and/or questions contact me at,
+e.mail: code[at]wtfuzz.com
+weblog: www.wtfuzz.com
