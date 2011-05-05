@@ -51,8 +51,8 @@ rm g1.tmp g2.tmp URLS
 NUM=`wc -l URLS_$SEARCHF | awk '{print $1}'`
 LOC=`expr $NUM - 5`
 
-echo "COMPLETED: Extracted '$LOC links' successfully.
-echo "REFERENCE: File'`pwd`/URLS_$SEARCHF' lists the URLs."
+echo "COMPLETED: Extracted '$LOC links' successfully!"
+echo "REFERENCE: File '`pwd`/URLS_$SEARCHF' lists the URL results."
 cat URLS_$SEARCHF
 echo ""
 
