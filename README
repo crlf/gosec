@@ -10,13 +10,14 @@
 #################################################################
 
 
-gosec is command line utility developed as bash script to search
-Google for a particular query string. It searched "google.com"
-to find the top URLs and lists them on the screen as well as in
-the file "URLS_*" for reference where [*] is the search string.
+File "gosec.sh" is command line utility developed as bash script 
+to search Google for a particular query string. It searches the
+google.com to find the top URLs and lists them on the screen as 
+well as in the file URLS_* for reference where * is the search
+string.
 
 
-Usage/example:
+Usage/Example:
 -------------
 USAGE: ./gosec.sh {search string}
 
