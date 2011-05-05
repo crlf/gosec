@@ -1,4 +1,3 @@
-
 #################################################################
 #                                                               #
 # .-----.-----.-----.-----.----.                                #
@@ -6,7 +5,10 @@
 # |___  |_____|_____|_____|____|  e.mail: code[at]wtfuzz.com    #
 # |_____|                                                       #
 #                                                               #
+# gosec.sh: [GO]ogle [SE]arch [C]ommand - A Linux Bash Script   #
+#                                                               #
 #################################################################
+
 
 gosec is command line utility developed as bash script to search
 Google for a particular query string. It searched "google.com"
@@ -16,12 +18,12 @@ the file "URLS_*" for reference where [*] is the search string.
 
 Usage/example:
 -------------
-USAGE: ./gosec {search string}
+USAGE: ./gosec.sh {search string}
 
-./gosec test example
+./gosec.sh test example
 URL results will be saved in the file "URLS_test.example"
 
-./gosec how are you trends
+./gosec.sh how are you trends
 URL results will be saved in the file "URLS_how.are.you.trends"
 
 
